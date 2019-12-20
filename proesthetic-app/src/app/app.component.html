@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"> <b> <span style="color:#6fc2b0">Pro</span> <span style="color:#2f6ba3">Esthetic</span></b> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <button (click)="ListarCasos()" type="button" class="btn btn-info">Casos</button>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Configuracion
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a (click)="ListarClinicas()" class="dropdown-item" >Clinicas</a>
+          <a (click)="ListarOdontologos()"class="dropdown-item">Odontologos</a>
+          <a (click)="ListarProductos()"class="dropdown-item" >Productos</a>
+          <a (click)="ListarMuestra()"class="dropdown-item" >Muestra (Listas)</a>
+        </div>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>

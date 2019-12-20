@@ -1,0 +1,5 @@
+.image{
+    height:28em; background-size:cover; width:auto;
+    background-image:url('src/assets/Images/logo nuevo-02.png');
+    background-position:50% 50%;
+  }
